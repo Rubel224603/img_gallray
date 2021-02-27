@@ -1,0 +1,51 @@
+img{
+    
+    height:200px;
+    width:100%;
+}
+
+nav{
+    
+    
+}
+.menu{
+    
+     /*postition property : static, fixed, relative,fixed*/
+    
+    display:inline-flex;
+    flex-direction:row ;
+    justify-content: flex-end;
+    text-transform: capitalize;
+    font-family: 'josefin sans',sans-serif;
+    background: red;
+
+    position:fixed;
+    top:35%;
+    left:40%;
+   padding:15px;
+    color:aqua;
+    list-style: none;
+}
+
+.listItem{
+    
+    margin:auto 20px;
+    cursor:pointer;
+}
+
+.gallary ul{
+    
+    display: flex;
+    list-style:none;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallary ul li img{
+    
+    height:250px;
+    width:250px;
+    margin:7px;
+    border:1px dashed ;
+    
+}
